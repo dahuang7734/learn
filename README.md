@@ -6,3 +6,6 @@ git status  #查看库内文件状态（红色为未进行add增加进入版本�
 git log   #查看记录
 git reset --hard HEAD^  #回退到上一个版本（git中HEAD表示当前版本HEAD^表示上一个版本，HEAD^^表示上上个，同样可以用HEAD~n表示回退n个版本）
 git reflog #查看版本号方便进行回退
+git checkout -- file  #撤销工作区的修改（让文件回到最近一次git add或git commit状态）
+git rm file  #删除文件
+
