@@ -8,4 +8,5 @@ git reset --hard HEAD^  #回退到上一个版本（git中HEAD表示当前版本
 git reflog #查看版本号方便进行回退
 git checkout -- file  #撤销工作区的修改（让文件回到最近一次git add或git commit状态）
 git rm file  #删除文件
-
+git push -u origin master  #将本地的master分支推送到远程仓库的master分支上
+git remote add  origin git@server-name:path/repo-name.git #将本地和远程仓库关联起来
